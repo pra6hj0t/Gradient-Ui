@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
 
         Handler().postDelayed({
-            intent= Intent(this,MainActivity2::class.java)
+            intent= Intent(this,SignUp::class.java)
             startActivity(intent)
             finish()
                               },2000)
